@@ -18,10 +18,10 @@ INSERT INTO students (firstname, lastname, gender, birth_date, group_id) VALUES
 ('Aki', 'Sanatov', 'male', '2003-03-10', 4);
 
 
-INSERT INTO schedule (subject, day_of_week, lesson_time, faculty_id) VALUES
-('Computer Science', 'Monday', '10:00', 2),
-('Calculus', 'Monday', '14:00', 1),
-('History', 'Tuesday', '11:30', 2);
+INSERT INTO schedule (subject, day_of_week, lesson_time, group_id, faculty_id) VALUES
+('Computer Science', 'Monday', '10:00',3, 2),
+('Calculus', 'Monday', '14:00',1, 1),
+('History', 'Tuesday', '11:30',4, 2);
 
 
 ALTER TABLE students ADD COLUMN phone TEXT;
