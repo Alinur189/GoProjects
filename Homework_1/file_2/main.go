@@ -28,5 +28,6 @@ func helloWorldHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	fmt.Fprint(w, string(data))
+	fmt.Fprint(w, string(data))
 }
 
